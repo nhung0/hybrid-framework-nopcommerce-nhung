@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//actions/common/baseTest.java=UTF-8
+encoding//interfaces/pageUIs/CustomerPageUIs.java=UTF-8
+encoding//interfaces/pageUIs/HomePageUIs.java=UTF-8
+encoding//interfaces/pageUIs/LoginPageUIs.java=UTF-8
+encoding//interfaces/pageUIs/RegisterPageUIs.java=UTF-8
+encoding//testcase/com/nopcommerce/user/level_03_basepage_object.java=UTF-8
+encoding//testcase/com/nopcommerce/user/level_04_multiple_browsers.java=UTF-8
+encoding//testcase/com/nopcommerce/user/level_05_webdriver_manager_and_selenium_manager.java=UTF-8
