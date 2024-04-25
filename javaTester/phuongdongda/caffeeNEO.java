@@ -9,15 +9,15 @@ public class caffeeNEO {
 	
 			
 		
-	}
+	
 	//phương thức: method/function
 	public void shipespresso() {
 		System.out.println("ship cafe: " + espresso);
 	}
-	protected void shiporange() {
+	public void shiporange() {
 		System.out.println("ship orange: " + orangeFruit);
 	}
-	void shiplemon() {
+	 public void shiplemon() {
 		System.out.println("ship lemon: " + lemon);
 	}
 	
