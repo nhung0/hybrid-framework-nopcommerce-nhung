@@ -22,13 +22,13 @@
   
   
  
-  
-  <test name="Run on Opera">
+  <!--<test name="Run on Opera">
   <parameter name="browser" value="opera"/>
     <classes>
         <class name="com.nopcommerce.user.level_05_webdriver_manager_and_selenium_manager"/>
     </classes>
-  </test> 
+  </test>  -->
+  
   
   <test name="Run on Edge">
   <parameter name="browser" value="edge"/>

@@ -13,9 +13,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
 
-import com.github.dockerjava.api.command.CreateConfigCmd;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import net.sourceforge.htmlunit.corejs.javascript.ast.SwitchCase;
 
 public class baseTest {
@@ -33,19 +31,23 @@ public class baseTest {
 			driver = new FirefoxDriver();
 			
 		} else if (browser == browserList.CHROME) {
-			driver = WebDriverManager.chromedriver().driverVersion("124.3456.000").create();
+//			driver = WebDriverManager.chromedriver().driverVersion("124.3456.000").create();
+			driver = new ChromeDriver();
 
 		}else if (browser == browserList.OPERA) {
 			
-			driver = WebDriverManager.operadriver().create();
-		} else if (browser == browserList.EDGE) {
+//			driver = WebDriverManager.operadriver().create();
 			
-			driver = WebDriverManager.edgedriver().create();
+		} else if (browser == browserList.EDGE) {
+//			
+//			driver = WebDriverManager.edgedriver().create();
+			driver = new EdgeDriver();
+			
 		} else if (browser == browserList.IE) { // không chạy đc
-			driver = WebDriverManager.iedriver().arch32().create();
+//			driver = WebDriverManager.iedriver().arch32().create();
 			
 		}else if (browser == browserList.SAFARI) { // không chạy đc
-			driver = WebDriverManager.safaridriver().create();
+//			driver = WebDriverManager.safaridriver().create();
 		}
 		else {
 			throw new RuntimeException("browser name is not correct");

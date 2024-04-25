@@ -1,5 +1,6 @@
 package eclipseTips;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -15,8 +16,8 @@ public class hotkey {
 	public void beforeClass() {
 		System.getProperty("webdriver.gecko.driver", projectPath + ("\\browserdriver\\geckodriver.exe"));
 		driver = new FirefoxDriver();
-		emailAdd = "nhun" + randomEmail() + "@gmail.com";
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://demo.nopcommerce.com/");
 	}
 

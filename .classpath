@@ -12,30 +12,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="libraries/testng-6.14.3.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/bcpkix-jdk18on-1.76.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/bcprov-jdk18on-1.76.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/bcutil-jdk18on-1.76.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/commons-compress-1.24.0.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/commons-io-2.13.0.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/commons-lang3-3.13.0.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/dec-0.1.2.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/docker-java-3.3.4.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/docker-java-api-3.3.4.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/docker-java-core-3.3.4.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/docker-java-transport-3.3.4.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/docker-java-transport-httpclient5-3.3.4.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/gson-2.10.1.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/guava-19.0.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/httpclient5-5.2.1.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/httpcore5-5.2.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/httpcore5-h2-5.2.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/jackson-annotations-2.10.3.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/jackson-core-2.10.3.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/jackson-databind-2.10.3.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/jcl-over-slf4j-1.7.30.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/jna-5.13.0.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/slf4j-api-2.0.9.jar"/>
-	<classpathentry kind="lib" path="libWebDriver/webdrivermanager-5.6.2.jar"/>
 	<classpathentry kind="lib" path="libraries/selenium-server-4.14.0.jar"/>
 	<classpathentry kind="lib" path="libraries/selenium-server-standalone-3.9.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
