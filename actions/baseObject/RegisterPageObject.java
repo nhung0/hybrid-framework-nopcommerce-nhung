@@ -44,9 +44,10 @@ public class RegisterPageObject extends basePage{
 		return getElmentText(driver, RegisterPageUIs.COMFIRMPASSWORD_ERROR_MSG);
 	}
 
-	public void clickToNopCommerceLogo() {
+	public HomePageObject clickToNopCommerceLogo() {
 		waitForElementVisible(driver, RegisterPageUIs.NOP_COMMERCE_LOGO);
 		clickToElement(driver, RegisterPageUIs.NOP_COMMERCE_LOGO);
+		return new HomePageObject(driver);
 	}
 
 	public void enterToFirstNameTextbox(String firstNameValue) {

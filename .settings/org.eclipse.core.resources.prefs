@@ -7,3 +7,7 @@ encoding//interfaces/pageUIs/RegisterPageUIs.java=UTF-8
 encoding//testcase/com/nopcommerce/user/level_03_basepage_object.java=UTF-8
 encoding//testcase/com/nopcommerce/user/level_04_multiple_browsers.java=UTF-8
 encoding//testcase/com/nopcommerce/user/level_05_webdriver_manager_and_selenium_manager.java=UTF-8
+encoding//testcase/com/nopcommerce/user/level_07_page_manager_1.java=UTF-8
+encoding//testcase/com/nopcommerce/user/level_07_page_manager_2.java=UTF-8
+encoding//testcase/com/nopcommerce/user/level_07_page_manager_3.java=UTF-8
+encoding//testcase/com/nopcommerce/user/level_08_switch_page.java=UTF-8
